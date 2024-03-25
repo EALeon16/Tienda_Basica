@@ -1,0 +1,120 @@
+.product-detail {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .title-container {
+    display: flex;
+  }
+  
+  .title-container img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+  }
+  
+  .title {
+    font-size: var(--lg);
+    font-weight: bold;
+  }
+  
+  .my-order-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .shopping-cart {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  
+  .shopping-cart figure {
+    margin: 0;
+  }
+  
+  .shopping-cart figure img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .shopping-cart div p {
+    margin: 0;
+  }
+  
+  .primary-button {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+  }
+  .containerExito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contentExito {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #006400; /* Verde oscuro */
+  }
+  
+  img {
+    margin-top: 20px;
+  }
+
+  .btnComprarTotal {
+    background-color: green; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo puntero al pasar por encima */
+    margin-right: 10px;
+    
+  }
+  
+  .btnComprarTotal:hover {
+    background-color: darkgreen; /* Cambio de color al pasar el ratón */
+  }
+  .btnCancelarCompra {
+    background-color: red; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo puntero al pasar por encima */
+    margin-right: 10px;
+    
+  }
+  
+  .btnCancelarCompra:hover {
+    background-color: darkred; /* Cambio de color al pasar el ratón */
+  }
+  .btnEliminarCarrito {
+    background-color: gray; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo puntero al pasar por encima */
+    margin-right: 10px;
+    
+  }
+  
+  .btnEliminarCarrito:hover {
+    background-color: darkgray; /* Cambio de color al pasar el ratón */
+  }
